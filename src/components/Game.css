@@ -3,3 +3,13 @@ padding:1rem;
 margin:1rem;
   
 }
+
+.empty-screen{
+    margin-top:8rem;
+    opacity:0.5;
+}
+
+.game-nav{
+    position: absolute;
+    top:6rem;
+}
