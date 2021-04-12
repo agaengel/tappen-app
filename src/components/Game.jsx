@@ -32,7 +32,7 @@ function createCard(data){
         </div>
         <div className="empty-screen">
         <p>Game Over :(</p>
-        <a href="/game" ><br /><img src={rewind} width="30px" alt="restart"/><br />Restart</a>
+        <a href="/" ><br /><img src={rewind} width="30px" alt="restart"/><br />Restart</a>
         </div>
       <div className="game-container">
       
