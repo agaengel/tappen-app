@@ -1,0 +1,26 @@
+.tappen-card-container{
+margin:5rem 0 0;
+
+
+}
+
+.tappen-card{
+    position:absolute;
+top:8rem;
+height:48vh;
+left:0;
+right:0;
+margin: 0 auto;
+min-width: 40vw;
+    max-width:80vw;
+    user-select: None;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border:4px solid #f1f3f66a;
+   
+    border-radius: 15px;
+    padding:1.25rem;
+
+
+}

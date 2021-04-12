@@ -1,0 +1,15 @@
+.tappen-card-header{
+    position: relative;
+    height: 25%;
+   
+    font-size:4em;
+    padding:1.25rem;
+
+    border-radius: 15px;
+}
+
+.tappen-card-header img{
+    margin-right:auto;
+    margin-left:0;
+    display:block;
+}
