@@ -2,21 +2,20 @@
 
 .tappen-card{
     position:absolute;
-top:0;
-height:48vh;
+top:0rem;
+height:40vh;
 left:0;
 right:0;
-margin: 8rem auto;
-    width:80vw;
-    max-width:500px;
+margin:8rem auto;
+    width:65vw;
+    max-width:400px;
     user-select: None;
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    border:4px solid #f1f3f66a;
-   
+    border:4px solid #f1f3f6;
     border-radius: 15px;
-    padding:1.25rem;
+    padding:.5rem;
 
 
 }

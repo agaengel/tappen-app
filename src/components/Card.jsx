@@ -7,18 +7,19 @@ import TinderCard from 'react-tinder-card';
 
 const Card = (props) => {
     return(
-    
-        <TinderCard>
-        <div className="tappen-card">
+      
+        <TinderCard onSwipe={props.onSwipe}>
+         <div className={`tappen-card ${props.className}`
+}>
         <CardHeader 
     
         />
 <CardBody 
     content={props.content}
 />
-        </div>
+</div>
         </TinderCard>
-
+      
         
     )
 }

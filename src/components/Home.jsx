@@ -1,14 +1,21 @@
 import React from "react";
 import "./Home.css";
-import {
-    Link
-  } from "react-router-dom";
+import Card from './Card';
+
 
 const Home = () => {
     return(
         <div id="home-screen">
-       <h1>Prepare to get wrecked!</h1>
-        <Link to="/game"> <div className="game-start-button"><h1>Play now!</h1></div></Link>
+       <h1 style={{fontSize: "1em"}}>Prepare to get wrecked!</h1>
+       <Card
+       onSwipe={event =>  window.location.href='/game'}
+      content={"Swipe to start!"}
+      className="starter-card"
+       />
+      
+         
+       
+        
         <div className="home-content">
         <p>Soon available for</p>
         <button type="button" className="store-button"><i class="fab fa-apple"></i> App Store</button>
