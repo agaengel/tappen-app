@@ -23,12 +23,10 @@ function App() {
             renders the first one that matches the current URL. */}
         <Switch>
   
-          <Route path="/game" exact>
-            <Game />
-          </Route>
-          <Route path="/" exact>
-            <Home />
-          </Route>
+          <Route path="/game" exact component={Game}/>
+        
+          <Route path="/" exact component={Home} />
+         
         </Switch>
     
     </Router>
