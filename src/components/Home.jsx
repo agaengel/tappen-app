@@ -6,9 +6,9 @@ import Card from './Card';
 const Home = () => {
     return(
         <div id="home-screen">
-       <h1 style={{fontSize: "1em"}}>Prepare to get wrecked!</h1>
+       <h1 style={{fontSize: "1em", marginTop:"0.5rem"}}>Prepare to get wrecked!</h1>
        <Card
-       onSwipe={event =>  window.location.href='/game'}
+       onSwipe={event =>  window.location.replace("/game")}
       content={"Swipe to start!"}
       className="starter-card"
        />
